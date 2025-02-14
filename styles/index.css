@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: url(../assets/banner-bk.jpg);
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+.logo{
+    max-width: 150px;
+    margin: 20px;
+    padding-left: 70px;
+}
+.header-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.access{
+    margin-right:80px;
+}
+h1{
+    font-size:60px;
+    margin: 20px;
+    padding-left: 70px;
+}.header-p{
+    margin: 30px;
+    padding-left: 60px ;
+}
+.bottom-header{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #00ffad;
+    border: none;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-weight: bold;
+}
+.h2-main{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.list-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px;;
+}
+.product{
+    align-items: center;
+    display: flex;
+     flex-direction: column;
+}
+.h3-product{
+    margin: 10px;
+    font-size: 30px;
+}
+.p-product{
+    margin: 10px;
+}
+.section-two-h4{
+    font-size: 50px;
+    margin-left: 225px;
+    padding-bottom: 0vw;
+}
+.section-two-p{
+    margin-left: 225px;
+    margin-top: 40px;
+}
+.bottom-section-two{
+    height: 60px;
+    width: 150px;
+    background-color: #192440;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin: 40px;
+    margin-left: 225px;
+    font-weight: bold;
+}
+/*.grado{
+    background-color: #00ffad;
+    width: 0px;
+    height: 30vw;
+    border-right: 99vw solid transparent;
+    border-top: 15vw solid white;
+}*/
+.info-medium{
+margin-right: 200px;
+}
+.back-ground{
+    margin-top: 150px;
+    background: linear-gradient(170deg, white 50%, #00ffad 50%);
+    display: flex;
+    justify-content: space-between;
+}
+.lap-top{
+    margin:0px 150px 0px 0px ;
+}
+.table{
+    height: auto;
+}
+.back-two{
+    display: flex;
+    background: #00ffad;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
