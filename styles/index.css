@@ -84,13 +84,7 @@ h1{
     margin-left: 225px;
     font-weight: bold;
 }
-/*.grado{
-    background-color: #00ffad;
-    width: 0px;
-    height: 30vw;
-    border-right: 99vw solid transparent;
-    border-top: 15vw solid white;
-}*/
+
 .info-medium{
 margin-right: 200px;
 }
@@ -111,4 +105,171 @@ margin-right: 200px;
     background: #00ffad;
     flex-direction: row-reverse;
     padding: 40px;
+}
+.planes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; /* Espaciado entre planes */
+    margin-top: 100px ;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.all-plan {
+    padding: 50px;
+    width: 250px; /* Tamaño fijo para evitar cambios */
+}
+
+.all-plan:hover {
+    background-color: #192440;
+    color: white;
+    cursor: pointer;
+    .buy{
+        background-color: #00ffad;
+        color: #192440;
+        cursor: pointer;
+    }
+}
+
+.name-plan {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.price-two {
+    font-size: 100px; 
+}
+
+.buy{
+    border-color: #192440;
+    padding: 15px 35px 15px 35px;
+    border-radius: 20px;
+    color: #192440;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+.patrocinadores{
+    display: flex;
+    justify-content: center;
+    background-color: #EDEEF0;
+    padding: 50px 0px 50px 0px;
+    gap: 100px;
+    height: 60px;
+}
+/*.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    background: url(/assets/contact-bk.jpg) no-repeat;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    gap: 30px;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00ffcc;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00ffcc;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00cc99;
+}*/
+
+.contact-section{
+    background: url(/assets/contact-bk.jpg) no-repeat;
+    min-height: 80vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.contact-info{
+    color: white;
+    width: 520px;
+}
+h2{
+    font-size: 50px;
+}
+.description{
+    margin: 40px 0px 40px 0px;
+}
+p{
+    margin: 0px 0px 20px 0px;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
 }
