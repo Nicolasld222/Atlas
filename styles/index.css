@@ -241,3 +241,17 @@ footer{
     color: white;
     background-color: #192440;
 }
+@media (max-width:1279px){
+    body{
+        width: 140%;
+    }
+    header{
+        width: 1294px;
+    }
+    .access{
+    margin-right: 120px;
+    }
+    .h2-main{
+        width: 1293px;
+    }
+}
