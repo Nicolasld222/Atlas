@@ -283,6 +283,11 @@ footer{
         width: 100%;
     }
 }
+@media(max-width:768px){
+    body{
+        width: 250%;
+    }
+}
 @media(max-width:480px){
     body{
         width: 1304px;
