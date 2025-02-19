@@ -254,4 +254,34 @@ footer{
     .h2-main{
         width: 1293px;
     }
+    .section-two-h4{
+        margin: 0px 0px 0px 115px;
+        font-size: 35px;
+    }
+    .info-medium{
+        margin: 0;
+    }
+    .section-two-p{
+        margin: 10px 0px 0px 115px;
+    }
+    .bottom-section-two{
+        margin: 40px 0px 0px 115px;
+    }
+    .contact-section{
+        width: 100%;
+    }
+
+}
+@media(max-width:920px){
+    body{
+        width: 170%;
+    }
+    header {
+        width: 1304px;
+    }
+}
+@media(max-width:480px){
+    body{
+        width: 1304px;
+    }
 }
