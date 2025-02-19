@@ -246,7 +246,7 @@ footer{
         width: 140%;
     }
     header{
-        width: 1294px;
+        width: 100%;
     }
     .access{
     margin-right: 120px;
@@ -274,14 +274,20 @@ footer{
 }
 @media(max-width:920px){
     body{
-        width: 170%;
+        width: 246%;
     }
     header {
-        width: 1304px;
+        width: 100%;
+    }
+    main{
+        width: 100%;
     }
 }
 @media(max-width:480px){
     body{
         width: 1304px;
+    }
+    main{
+        width: 100%;
     }
 }
