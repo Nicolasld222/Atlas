@@ -29,6 +29,7 @@ h1{
 }.header-p{
     margin: 30px;
     padding-left: 60px ;
+    font-size: 22px;
 }
 .bottom-header{
     width: 120px;
@@ -90,7 +91,7 @@ margin-right: 200px;
 }
 .back-ground{
     margin-top: 150px;
-    background: linear-gradient(170deg, white 50%, #00ffad 50%);
+    background: linear-gradient(173deg, white 50%, #00ffad 50%);
     display: flex;
     justify-content: space-between;
 }
@@ -176,7 +177,7 @@ li {
 
 .contact-section{
     background: url(/assets/contact-bk.jpg) no-repeat;
-    min-height: 73vh;
+    min-height: 63vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,16 +244,16 @@ footer{
 }
 @media (max-width:1279px){
     body{
-        width: 140%;
+        width: 100%;
     }
     header{
         width: 100%;
     }
     .access{
-    margin-right: 120px;
+        margin-right: 120px;
     }
     .h2-main{
-        width: 1293px;
+        width: 100%px;
     }
     .section-two-h4{
         margin: 0px 0px 0px 115px;
@@ -274,25 +275,134 @@ footer{
 }
 @media(max-width:920px){
     body{
-        width: 246%;
-    }
-    header {
         width: 100%;
     }
-    main{
-        width: 100%;
+    h1{
+        font-size: 55px;
+        padding-left: 0px;
+    }
+    .header-p{
+        padding: 0;
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    .logo, .access{
+        margin: 0;
+        padding-left: 10px;
+    }
+    .access{
+        padding: 0%;
+    }
+    /* .bottom-header{
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    } */
+    .h2-main{
+        font-size: 10px;
+    }
+    .lap-top{
+        width: 50%;
     }
 }
 @media(max-width:768px){
     body{
-        width: 250%;
+        width: 100%;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .patrocinadores{
+        gap: 0;
+    }
+    .patrocinador{
+        width: 15%;
+        gap: 0;
+    }
+    .planes{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-product{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        width: 100%;
     }
 }
 @media(max-width:480px){
     body{
-        width: 1304px;
-    }
-    main{
         width: 100%;
+    }
+    h1{
+        font-size: 41px;
+        padding-left: 0px;
+    }
+    .header-p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        margin: 20px;
+    }
+    .logo, .access{
+        margin: 0;
+        padding-left: 10px;
+    }
+    .access{
+        padding: 0%;
+    }
+    .bottom-header{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .h2-main{
+        font-size: 25px;
+    }
+    .list-product{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-two-h4,.section-two-p, .bottom-section-two{
+        margin-left: 10px;
+    }
+    .back-ground, .back-two, .planes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lap-top, .table{
+        width: 420px;
+        margin: 0;
+    }
+    .patrocinadores{
+        width: 100%;
+        gap: 0;
+    }
+    .container{
+        align-items: center;
+    }
+    .contact-section, .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .patrocinador{
+        width: 16%;
+    }
+    .back-ground{
+        background: linear-gradient(163deg, white 50%, #00ffad 50%);
+    }
+    .contact-info{
+        width: 99%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 }
