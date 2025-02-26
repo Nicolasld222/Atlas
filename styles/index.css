@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: url(../assets/banner-bk.jpg);
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+.logo{
+    max-width: 150px;
+    margin: 20px;
+    padding-left: 70px;
+}
+.header-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.access{
+    margin-right:80px;
+}
+h1{
+    font-size:60px;
+    margin: 20px;
+    padding-left: 70px;
+}.header-p{
+    margin: 30px;
+    padding-left: 60px ;
+    font-size: 22px;
+}
+.bottom-header{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #00ffad;
+    border: none;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-weight: bold;
+}
+.h2-main{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.list-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px;;
+}
+.product{
+    align-items: center;
+    display: flex;
+     flex-direction: column;
+}
+.h3-product{
+    margin: 10px;
+    font-size: 30px;
+}
+.p-product{
+    margin: 10px;
+}
+.section-two-h4{
+    font-size: 50px;
+    margin-left: 225px;
+    padding-bottom: 0vw;
+}
+.section-two-p{
+    margin-left: 225px;
+    margin-top: 40px;
+}
+.bottom-section-two{
+    height: 60px;
+    width: 150px;
+    background-color: #192440;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 225px;
+    font-weight: bold;
+}
+
+.info-medium{
+margin-right: 200px;
+}
+.back-ground{
+    margin-top: 150px;
+    background: linear-gradient(173deg, white 50%, #00ffad 50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.table{
+    height: auto;
+}
+.back-two{
+    display: flex;
+    background: #00ffad;
+    flex-direction: row-reverse;
+    padding: 40px;
+}
+.planes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; 
+    margin-top: 100px ;
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.all-plan {
+    padding: 50px;
+    width: 250px; 
+}
+
+.all-plan:hover {
+    background-color: #192440;
+    color: white;
+    cursor: pointer;
+    .buy{
+        background-color: #00ffad;
+        color: #192440;
+        cursor: pointer;
+    }
+}
+
+.name-plan {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.price-two {
+    font-size: 100px; 
+}
+
+.buy{
+    border-color: #192440;
+    padding: 15px 35px 15px 35px;
+    border-radius: 20px;
+    color: #192440;
+    font-weight: bolder;
+    margin-top: 35px;
+}
+.patrocinadores{
+    display: flex;
+    justify-content: center;
+    background-color: #EDEEF0;
+    padding: 50px 0px 50px 0px;
+    gap: 100px;
+    height: 60px;
+}
+
+.contact-section{
+    background: url(../assets/contact-bk.jpg) no-repeat;
+    min-height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    gap: 150px;
+}
+.contact-info{
+    color: white;
+    width: 600px;
+}
+h2{
+    font-size: 50px;
+}
+.description{
+    margin: 30px 0px 25px 0px;
+}
+.info-one{
+    margin: 0px 0px 20px 0px;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.contact-form{
+    color: white;
+}
+.p-contact{
+    color: #00ffad;
+}
+input, textarea{
+    background-color: transparent;
+    border-color: #00ffad;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+input{
+    max-width: 100%;
+    height: 30px;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+}
+.botton-submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #00ffad;
+    border: none;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #192440;
+}
+@media (max-width:1279px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .access{
+        margin-right: 120px;
+    }
+    .h2-main{
+        width: 100%px;
+    }
+    .section-two-h4{
+        margin: 0px 0px 0px 115px;
+        font-size: 35px;
+    }
+    .info-medium{
+        margin: 0;
+    }
+    .section-two-p{
+        margin: 10px 0px 0px 115px;
+    }
+    .bottom-section-two{
+        margin: 40px 0px 0px 115px;
+    }
+    .contact-section{
+        width: 100%;
+    }
+    .patrocinadores{
+        gap: 22px;
+    }
+    .container{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .contact-info{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .lap-top,.table{
+        margin: 0;
+        width: 50%;
+    }
+    .bottom-section-two{
+        margin: 10px 0px 0px 115px;
+    }
+    .all-plan{
+        padding: 40px;
+    }
+
+}
+@media(max-width:920px){
+    body{
+        width: 100%;
+    }
+    h1{
+        font-size: 55px;
+        padding-left: 0px;
+    }
+    .header-p{
+        padding: 0;
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    .logo, .access{
+        margin: 0;
+        padding-left: 10px;
+    }
+    .access{
+        padding: 0%;
+    }
+    
+    .h2-main{
+        font-size: 10px;
+    }
+    .lap-top,.table{
+        width: 50%;
+        margin: 0;
+    }
+    
+    
+}
+@media(max-width:768px){
+    body{
+        width: 100%;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .patrocinadores{
+        gap: 0;
+    }
+    .patrocinador{
+        width: 15%;
+        gap: 0;
+    }
+    .planes{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-product{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .back-ground, .back-two{
+        flex-wrap: wrap;
+    }
+    .lap-top,.table{
+        width: 100%;
+    }
+    .section-two-h4,.section-two-p,.bottom-section-two{
+        margin-left: 10px;
+    }
+    .back-ground{
+        background: linear-gradient(170deg, white 50%, #00ffad 50%);
+    }
+}
+@media(max-width:480px){
+    body{
+        width: 100%;
+    }
+    h1{
+        font-size: 41px;
+        padding-left: 0px;
+    }
+    .header-p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        margin: 20px;
+    }
+    .logo, .access{
+        margin: 0;
+        padding-left: 10px;
+    }
+    .access{
+        padding: 0%;
+    }
+    .bottom-header{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .h2-main{
+        font-size: 25px;
+    }
+    .list-product{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-two-h4,.section-two-p, .bottom-section-two{
+        margin-left: 10px;
+    }
+    .back-ground, .back-two, .planes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lap-top, .table{
+        width:100%;
+        margin: 0;
+    }
+    .patrocinadores{
+        width: 100%;
+        gap: 0;
+    }
+    .container{
+        align-items: center;
+    }
+    .contact-section, .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .patrocinador{
+        width: 16%;
+    }
+    .back-ground{
+        background: linear-gradient(170deg, white 50%, #00ffad 50%);
+    }
+    .contact-info{
+        width: 99%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
